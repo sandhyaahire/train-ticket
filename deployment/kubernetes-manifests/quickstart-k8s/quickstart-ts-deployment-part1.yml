@@ -1,4 +1,4 @@
-apiVersion: apps/v1
+apiVersion: v1
 kind: Deployment
 metadata:
   name: ts-user-mongo
@@ -24,7 +24,7 @@ spec:
               memory: 100Mi
 ---
 
-apiVersion: apps/v1
+apiVersion: v1
 kind: Deployment
 metadata:
   name: ts-auth-mongo
